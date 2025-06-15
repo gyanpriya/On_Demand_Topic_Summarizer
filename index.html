@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topic Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>On-Demand Topic Summarizer</h1>
+    <small style="color: gray; font-size: 13px;">Please enter multiple topics separated by a comma (,)</small>
+    <input type="text" id="topicInput" placeholder="Enter a topic..." />
+    <label for="apiKeyInput">Hugging Face API Key:</label>
+    <input type="password" id="apiKeyInput" placeholder="Enter your Hugging Face API Key" />
+    <button id="fetchBtn">Generate Summary</button>
+
+    <div id="summaryOutput"></div>
+    <div id="finalSummary"></div>
+
+    <!-- Action buttons -->
+    <div class="action-buttons">
+    <button id="downloadBtn" style="display:none;">Download Summary</button>
+    <button id="emailBtn" style="display:none;">Send Summary via Email</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
