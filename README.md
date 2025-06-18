@@ -45,7 +45,7 @@ Hosted using GitHub Pages and requires no server or backend setup.
 
 ---
 
-## 🔧 Tools & Libraries Used
+## Tools & Libraries Used
 
 - Vanilla JavaScript (no frameworks)
 - HTML5 / CSS3
