@@ -1,11 +1,15 @@
+<!-- declaring document and language as english -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<!-- Head part - encoded to UTF 8, mobile friendly, linked with style css for better UI -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Topic Summarizer</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- wrapper with main heading, instruction for user, input field for entering topic name, 
+    label for hf api key, input field for enetering api key, button to generate summary and placeholder for ouptut and final summary  -->
 <body>
 
   <div class="container">
@@ -19,7 +23,7 @@
     <div id="summaryOutput"></div>
     <div id="finalSummary"></div>
 
-    <!-- Action buttons -->
+    <!-- Action buttons for downlaod and email-->
     <div class="action-buttons">
     <button id="downloadBtn" style="display:none;">Download Summary</button>
     <button id="emailBtn" style="display:none;">Send Summary via Email</button>
@@ -27,6 +31,7 @@
 
   </div>
 
+  <!-- linking javascript file  -->
   <script src="script.js"></script>
 </body>
 </html>
